@@ -702,9 +702,9 @@ img {
 }
 
 .policy-link {
-  line-height: 1.33;
+  line-height: 1.17;
   text-decoration: underline;
-  /* text-decoration-skip-ink: none; */
+  text-decoration-skip-ink: none;
   color: #4d5ae5;
   margin-left: 5px;
   font-size: 12px;

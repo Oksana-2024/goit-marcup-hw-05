@@ -575,6 +575,7 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
 
         <form class="modal-form-input" name="modal" autocomplete="off">
+          
           <div class="form-box-input">
             <label class="label-form-input" for="user-name">Name </label>
 
@@ -583,11 +584,11 @@
                 class="form-input"
                 id="user-name"
                 type="text"
-                name="name"
+                name="user-name"
                 autofocus
                 required
               />
-              <svg class="input-icon" width="18" height="18">
+              <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person-black-18dp"></use>
               </svg>
             </div>
@@ -627,13 +628,13 @@
             </div>
           </div>
 
-          <div class="form-box-input">
+          <div class="form-user-comment">
             <label class="label-form-input" for="user-comment">Comment </label>
 
             <textarea
               class="comment-text"
               id="user-comment"
-              name="comment"
+              name="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -642,11 +643,11 @@
             <input
               class="input-checkbox visually-hidden"
               type="checkbox"
-              name="checkbox"
+              name="user-privacy"
               value="true"
-              id="checkbox"
+              id="user-privacy"
             />
-            <label class="label-checkbox" for="checkbox">
+            <label class="label-checkbox" for="user-privacy">
               <span class="form-check">
                 <svg class="modal-check" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>

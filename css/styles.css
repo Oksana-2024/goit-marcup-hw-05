@@ -560,8 +560,6 @@ img {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -616,8 +614,9 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn:hover .modal-close-icon {
-  fill: #fff;
+.modal-close-btn:hover .modal-close-icon,
+.modal-close-btn:focus .modal-close-icon {
+  fill: #ffff;
 }
 
 .modal-text {
@@ -753,8 +752,12 @@ img {
   margin-bottom: 24px;
 }
 
-.label-checkbox .form-check {
+.form-check {
   display: inline-flex;
+}
+
+.label-checkbox .form-check {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 16px;

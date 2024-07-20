@@ -752,12 +752,8 @@ img {
   margin-bottom: 24px;
 }
 
-.form-check {
-  display: inline-flex;
-}
-
 .label-checkbox .form-check {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 16px;
